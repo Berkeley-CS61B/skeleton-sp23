@@ -1,0 +1,60 @@
+guesses : 11
+guessed : []
+current : ----
+Your guess? Sorry, there are no e's
+
+guesses : 10
+guessed : [e]
+current : ----
+Your guess? Sorry, there are no t's
+
+guesses : 9
+guessed : [e, t]
+current : ----
+Your guess? Sorry, there are no a's
+
+guesses : 8
+guessed : [e, t, a]
+current : ----
+Your guess? Sorry, there are no o's
+
+guesses : 7
+guessed : [e, t, a, o]
+current : ----
+Your guess? Sorry, there are no i's
+
+guesses : 6
+guessed : [e, t, a, o, i]
+current : ----
+Your guess? Sorry, there are no n's
+
+guesses : 5
+guessed : [e, t, a, o, i, n]
+current : ----
+Your guess? Sorry, there are no s's
+
+guesses : 4
+guessed : [e, t, a, o, i, n, s]
+current : ----
+Your guess? Sorry, there are no h's
+
+guesses : 3
+guessed : [e, t, a, o, i, n, s, h]
+current : ----
+Your guess? Sorry, there are no r's
+
+guesses : 2
+guessed : [e, t, a, o, i, n, s, h, r]
+current : ----
+Your guess? Sorry, there are no l's
+
+guesses : 1
+guessed : [e, t, a, o, i, n, s, h, r, l]
+current : ----
+Your guess? Yes, there is one u
+
+guesses : 1
+guessed : [e, t, a, o, i, n, s, h, r, l, u]
+current : -u--
+Your guess? Sorry, there are no d's
+

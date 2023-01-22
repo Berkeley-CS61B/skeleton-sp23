@@ -1,0 +1,54 @@
+guesses : 10
+guessed : []
+current : ---
+Your guess? Sorry, there are no a's
+
+guesses : 9
+guessed : [a]
+current : ---
+Your guess? Sorry, there are no b's
+
+guesses : 8
+guessed : [a, b]
+current : ---
+Your guess? Sorry, there are no c's
+
+guesses : 7
+guessed : [a, b, c]
+current : ---
+Your guess? Sorry, there are no d's
+
+guesses : 6
+guessed : [a, b, c, d]
+current : ---
+Your guess? Yes, there are 2 e's
+
+guesses : 6
+guessed : [a, b, c, d, e]
+current : -ee
+Your guess? Sorry, there are no f's
+
+guesses : 5
+guessed : [a, b, c, d, e, f]
+current : -ee
+Your guess? Sorry, there are no g's
+
+guesses : 4
+guessed : [a, b, c, d, e, f, g]
+current : -ee
+Your guess? Sorry, there are no h's
+
+guesses : 3
+guessed : [a, b, c, d, e, f, g, h]
+current : -ee
+Your guess? Sorry, there are no i's
+
+guesses : 2
+guessed : [a, b, c, d, e, f, g, h, i]
+current : -ee
+Your guess? Sorry, there are no j's
+
+guesses : 1
+guessed : [a, b, c, d, e, f, g, h, i, j]
+current : -ee
+Your guess? Sorry, there are no k's

@@ -1,0 +1,105 @@
+guesses : 15
+guessed : []
+current : ---------------
+Your guess? Sorry, there are no a's
+
+guesses : 14
+guessed : [a]
+current : ---------------
+Your guess? Sorry, there are no e's
+
+guesses : 13
+guessed : [a, e]
+current : ---------------
+Your guess? Yes, there are 2 i's
+
+guesses : 13
+guessed : [a, e, i]
+current : ----i------i---
+Your guess? Yes, there is one o
+
+guesses : 13
+guessed : [a, e, i, o]
+current : --o-i------i---
+Your guess? Yes, there are 2 u's
+
+guesses : 13
+guessed : [a, e, i, o, u]
+current : --o-i-u--u-i---
+Your guess? Sorry, there are no b's
+
+guesses : 12
+guessed : [a, e, i, o, u, b]
+current : --o-i-u--u-i---
+Your guess? Yes, there is one c
+
+guesses : 12
+guessed : [a, e, i, o, u, b, c]
+current : --o-icu--u-i---
+Your guess? Sorry, there are no d's
+
+guesses : 11
+guessed : [a, e, i, o, u, b, c, d]
+current : --o-icu--u-i---
+Your guess? Yes, there is one f
+
+guesses : 11
+guessed : [a, e, i, o, u, b, c, d, f]
+current : f-o-icu--u-i---
+Your guess? Sorry, there are no g's
+
+guesses : 10
+guessed : [a, e, i, o, u, b, c, d, f, g]
+current : f-o-icu--u-i---
+Your guess? Sorry, there are no h's
+
+guesses : 9
+guessed : [a, e, i, o, u, b, c, d, f, g, h]
+current : f-o-icu--u-i---
+Your guess? Sorry, there are no j's
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j]
+current : f-o-icu--u-i---
+Your guess? Sorry, there are no k's
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k]
+current : f-o-icu--u-i---
+Your guess? Yes, there are 2 l's
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l]
+current : flo-icul-u-i---
+Your guess? Sorry, there are no m's
+
+guesses : 6
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m]
+current : flo-icul-u-i---
+Your guess? Sorry, there are no n's
+
+guesses : 5
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n]
+current : flo-icul-u-i---
+Your guess? Sorry, there are no p's
+
+guesses : 4
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p]
+current : flo-icul-u-i---
+Your guess? Sorry, there are no q's
+
+guesses : 3
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p, q]
+current : flo-icul-u-i---
+Your guess? Yes, there are 2 r's
+
+guesses : 3
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p, q, r]
+current : floricul-uri---
+Your guess? Yes, there are 2 s's
+
+guesses : 3
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p, q, r, s]
+current : floricul-uris-s
+Your guess? Yes, there are 2 t's
+

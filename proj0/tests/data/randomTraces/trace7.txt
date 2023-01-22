@@ -1,0 +1,34 @@
+guesses : 7
+guessed : []
+current : ---------
+Your guess? Yes, there is one g
+
+guesses : 7
+guessed : [g]
+current : ---g-----
+Your guess? Yes, there is one s
+
+guesses : 7
+guessed : [g, s]
+current : ---g----s
+Your guess? Yes, there is one n
+
+guesses : 7
+guessed : [g, s, n]
+current : ---g-n--s
+Your guess? Yes, there is one r
+
+guesses : 7
+guessed : [g, s, n, r]
+current : -r-g-n--s
+Your guess? Yes, there are 2 e's
+
+guesses : 7
+guessed : [g, s, n, r, e]
+current : er-gen--s
+Your guess? Yes, there are 2 o's
+
+guesses : 7
+guessed : [g, s, n, r, e, o]
+current : erogeno-s
+Your guess? Yes, there is one u

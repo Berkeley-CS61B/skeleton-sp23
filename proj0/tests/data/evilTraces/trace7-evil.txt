@@ -1,0 +1,90 @@
+guesses : 14
+guessed : []
+current : --------
+Your guess? Sorry, there are no a's
+
+guesses : 13
+guessed : [a]
+current : --------
+Your guess? Sorry, there are no e's
+
+guesses : 12
+guessed : [a, e]
+current : --------
+Your guess? Yes, there is one i
+
+guesses : 12
+guessed : [a, e, i]
+current : -----i--
+Your guess? Sorry, there are no o's
+
+guesses : 11
+guessed : [a, e, i, o]
+current : -----i--
+Your guess? Yes, there is one u
+
+guesses : 11
+guessed : [a, e, i, o, u]
+current : --u--i--
+Your guess? Sorry, there are no b's
+
+guesses : 10
+guessed : [a, e, i, o, u, b]
+current : --u--i--
+Your guess? Sorry, there are no c's
+
+guesses : 9
+guessed : [a, e, i, o, u, b, c]
+current : --u--i--
+Your guess? Sorry, there are no d's
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d]
+current : --u--i--
+Your guess? Sorry, there are no f's
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f]
+current : --u--i--
+Your guess? Yes, there is one g
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f, g]
+current : --u--i-g
+Your guess? Sorry, there are no h's
+
+guesses : 6
+guessed : [a, e, i, o, u, b, c, d, f, g, h]
+current : --u--i-g
+Your guess? Sorry, there are no j's
+
+guesses : 5
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j]
+current : --u--i-g
+Your guess? Sorry, there are no k's
+
+guesses : 4
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k]
+current : --u--i-g
+Your guess? Sorry, there are no l's
+
+guesses : 3
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l]
+current : --u--i-g
+Your guess? Sorry, there are no m's
+
+guesses : 2
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m]
+current : --u--i-g
+Your guess? Yes, there is one n
+
+guesses : 2
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n]
+current : --u--ing
+Your guess? Sorry, there are no p's
+
+guesses : 1
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p]
+current : --u--ing
+Your guess? Sorry, there are no q's
+
