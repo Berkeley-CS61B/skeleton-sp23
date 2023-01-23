@@ -1,0 +1,19 @@
+go
+3
+7
+7
+go
+tigers,bison
+leopards,bison
+squirrels,butterflies
+squirrels,hummingbirds
+
+go
+403
+404
+va cafe
+go
+1, -10, 3
+0, 20, 5
+y
+zoom
