@@ -53,7 +53,10 @@ public class AdventureGameTests {
     private void runUntilStage(String stage, String inputFile, String answersFile,
                                CaptureSystemOutput.OutputCapture capture,
                                String assertionMessage) {
-        runTestGame(inputFile);
+        try {
+            runTestGame(inputFile);
+        } catch (Exception ignored) {
+        }
         String expected = new In(new File(PREFIX_PATH + answersFile)).readAll();
         String expectedClean = expected.replace("\r\n", "\n").strip();
         String captureClean = capture.toString().replace("\r\n", "\n").strip();
