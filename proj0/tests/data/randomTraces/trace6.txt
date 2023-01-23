@@ -1,0 +1,99 @@
+guesses : 26
+guessed : []
+current : --------------
+Your guess? Yes, there is one a
+
+guesses : 26
+guessed : [a]
+current : --------a-----
+Your guess? Sorry, there are no b's
+
+guesses : 25
+guessed : [a, b]
+current : --------a-----
+Your guess? Sorry, there are no c's
+
+guesses : 24
+guessed : [a, b, c]
+current : --------a-----
+Your guess? Sorry, there are no d's
+
+guesses : 23
+guessed : [a, b, c, d]
+current : --------a-----
+Your guess? Yes, there is one e
+
+guesses : 23
+guessed : [a, b, c, d, e]
+current : -e------a-----
+Your guess? Sorry, there are no f's
+
+guesses : 22
+guessed : [a, b, c, d, e, f]
+current : -e------a-----
+Your guess? Sorry, there are no g's
+
+guesses : 21
+guessed : [a, b, c, d, e, f, g]
+current : -e------a-----
+Your guess? Sorry, there are no h's
+
+guesses : 20
+guessed : [a, b, c, d, e, f, g, h]
+current : -e------a-----
+Your guess? Yes, there is one i
+
+guesses : 20
+guessed : [a, b, c, d, e, f, g, h, i]
+current : -e------a-i---
+Your guess? Sorry, there are no j's
+
+guesses : 19
+guessed : [a, b, c, d, e, f, g, h, i, j]
+current : -e------a-i---
+Your guess? Sorry, there are no k's
+
+guesses : 18
+guessed : [a, b, c, d, e, f, g, h, i, j, k]
+current : -e------a-i---
+Your guess? Sorry, there are no l's
+
+guesses : 17
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l]
+current : -e------a-i---
+Your guess? Yes, there is one m
+
+guesses : 17
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m]
+current : -em-----a-i---
+Your guess? Yes, there are 2 n's
+
+guesses : 17
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n]
+current : -em-n---a-i-n-
+Your guess? Yes, there are 2 o's
+
+guesses : 17
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o]
+current : -emon---a-ion-
+Your guess? Sorry, there are no p's
+
+guesses : 16
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p]
+current : -emon---a-ion-
+Your guess? Sorry, there are no q's
+
+guesses : 15
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q]
+current : -emon---a-ion-
+Your guess? Yes, there are 2 r's
+
+guesses : 15
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r]
+current : remon--ra-ion-
+Your guess? Yes, there are 2 s's
+
+guesses : 15
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s]
+current : remons-ra-ions
+Your guess? Yes, there are 2 t's

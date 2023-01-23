@@ -1,0 +1,24 @@
+guesses : 4
+guessed : []
+current : ---------------------
+Your guess? Yes, there are 5 i's
+
+guesses : 4
+guessed : [i]
+current : i-----------i-i-i-i--
+Your guess? Sorry, there are no q's
+
+guesses : 3
+guessed : [i, q]
+current : i-----------i-i-i-i--
+Your guess? Sorry, there are no z's
+
+guesses : 2
+guessed : [i, q, z]
+current : i-----------i-i-i-i--
+Your guess? Sorry, there are no y's
+
+guesses : 1
+guessed : [i, q, z, y]
+current : i-----------i-i-i-i--
+Your guess? Sorry, there are no x's

@@ -1,0 +1,39 @@
+guesses : 8
+guessed : []
+current : -----
+Your guess? Sorry, there are no c's
+
+guesses : 7
+guessed : [c]
+current : -----
+Your guess? Sorry, there are no o's
+
+guesses : 6
+guessed : [c, o]
+current : -----
+Your guess? Sorry, there are no m's
+
+guesses : 5
+guessed : [c, o, m]
+current : -----
+Your guess? Sorry, there are no p's
+
+guesses : 4
+guessed : [c, o, m, p]
+current : -----
+Your guess? Sorry, there are no u's
+
+guesses : 3
+guessed : [c, o, m, p, u]
+current : -----
+Your guess? Sorry, there are no t's
+
+guesses : 2
+guessed : [c, o, m, p, u, t]
+current : -----
+Your guess? Sorry, there are no e's
+
+guesses : 1
+guessed : [c, o, m, p, u, t, e]
+current : -----
+Your guess? Sorry, there are no r's

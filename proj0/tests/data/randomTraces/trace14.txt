@@ -1,0 +1,34 @@
+guesses : 2
+guessed : []
+current : --------
+Your guess? Yes, there is one r
+
+guesses : 2
+guessed : [r]
+current : r-------
+Your guess? Yes, there are 3 e's
+
+guesses : 2
+guessed : [r, e]
+current : re-e---e
+Your guess? Yes, there is one d
+
+guesses : 2
+guessed : [r, e, d]
+current : rede---e
+Your guess? Yes, there is one f
+
+guesses : 2
+guessed : [r, e, d, f]
+current : redef--e
+Your guess? Sorry, there are no q's
+
+guesses : 1
+guessed : [r, e, d, f, q]
+current : redef--e
+Your guess? Yes, there is one i
+
+guesses : 1
+guessed : [r, e, d, f, q, i]
+current : redefi-e
+Your guess? Yes, there is one n

@@ -1,0 +1,100 @@
+guesses : 15
+guessed : []
+current : --------------------
+Your guess? Sorry, there are no a's
+
+guesses : 14
+guessed : [a]
+current : --------------------
+Your guess? Yes, there are 4 e's
+
+guesses : 14
+guessed : [a, e]
+current : -------e-e-----e-e--
+Your guess? Yes, there are 2 i's
+
+guesses : 14
+guessed : [a, e, i]
+current : i------e-e--i--e-e--
+Your guess? Yes, there is one o
+
+guesses : 14
+guessed : [a, e, i, o]
+current : i--o---e-e--i--e-e--
+Your guess? Sorry, there are no u's
+
+guesses : 13
+guessed : [a, e, i, o, u]
+current : i--o---e-e--i--e-e--
+Your guess? Yes, there is one b
+
+guesses : 13
+guessed : [a, e, i, o, u, b]
+current : i--o---e-e--ib-e-e--
+Your guess? Yes, there is one c
+
+guesses : 13
+guessed : [a, e, i, o, u, b, c]
+current : i-co---e-e--ib-e-e--
+Your guess? Sorry, there are no d's
+
+guesses : 12
+guessed : [a, e, i, o, u, b, c, d]
+current : i-co---e-e--ib-e-e--
+Your guess? Sorry, there are no f's
+
+guesses : 11
+guessed : [a, e, i, o, u, b, c, d, f]
+current : i-co---e-e--ib-e-e--
+Your guess? Sorry, there are no g's
+
+guesses : 10
+guessed : [a, e, i, o, u, b, c, d, f, g]
+current : i-co---e-e--ib-e-e--
+Your guess? Yes, there is one h
+
+guesses : 10
+guessed : [a, e, i, o, u, b, c, d, f, g, h]
+current : i-co---ehe--ib-e-e--
+Your guess? Sorry, there are no j's
+
+guesses : 9
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j]
+current : i-co---ehe--ib-e-e--
+Your guess? Sorry, there are no k's
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k]
+current : i-co---ehe--ib-e-e--
+Your guess? Yes, there is one l
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l]
+current : i-co---ehe--ible-e--
+Your guess? Yes, there is one m
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m]
+current : i-com--ehe--ible-e--
+Your guess? Yes, there are 3 n's
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n]
+current : incom--ehen-iblene--
+Your guess? Yes, there is one p
+
+guesses : 8
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p]
+current : incomp-ehen-iblene--
+Your guess? Sorry, there are no q's
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p, q]
+current : incomp-ehen-iblene--
+Your guess? Yes, there is one r
+
+guesses : 7
+guessed : [a, e, i, o, u, b, c, d, f, g, h, j, k, l, m, n, p, q, r]
+current : incomprehen-iblene--
+Your guess? Yes, there are 3 s's
+

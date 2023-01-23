@@ -1,0 +1,25 @@
+guesses : 5
+guessed : []
+current : -------
+Your guess? Sorry, there are no t's
+
+guesses : 4
+guessed : [t]
+current : -------
+Your guess? Sorry, there are no u's
+
+guesses : 3
+guessed : [t, u]
+current : -------
+Your guess? Sorry, there are no s's
+
+guesses : 2
+guessed : [t, u, s]
+current : -------
+Your guess? Sorry, there are no o's
+
+guesses : 1
+guessed : [t, u, s, o]
+current : -------
+Your guess? Sorry, there are no r's
+

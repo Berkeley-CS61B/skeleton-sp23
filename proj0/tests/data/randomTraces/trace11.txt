@@ -1,0 +1,49 @@
+guesses : 3
+guessed : []
+current : -------------------
+Your guess? Sorry, there are no x's
+
+guesses : 2
+guessed : [x]
+current : -------------------
+Your guess? Sorry, there are no v's
+
+guesses : 1
+guessed : [x, v]
+current : -------------------
+Your guess? Yes, there are 2 c's
+
+guesses : 1
+guessed : [x, v, c]
+current : c----------------c-
+Your guess? Yes, there is one o
+
+guesses : 1
+guessed : [x, v, c, o]
+current : co---------------c-
+Your guess? Yes, there is one u
+
+guesses : 1
+guessed : [x, v, c, o, u]
+current : cou--------------c-
+Your guess? Yes, there are 3 n's
+
+guesses : 1
+guessed : [x, v, c, o, u, n]
+current : coun----n-------nc-
+Your guess? Yes, there are 2 t's
+
+guesses : 1
+guessed : [x, v, c, o, u, n, t]
+current : count---nt------nc-
+Your guess? Yes, there are 4 e's
+
+guesses : 1
+guessed : [x, v, c, o, u, n, t, e]
+current : counte--nte----ence
+Your guess? Yes, there is one r
+
+guesses : 1
+guessed : [x, v, c, o, u, n, t, e, r]
+current : counter-nte----ence
+Your guess? Sorry, there are no z's

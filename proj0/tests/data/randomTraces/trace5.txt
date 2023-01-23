@@ -1,0 +1,24 @@
+guesses : 1
+guessed : []
+current : --------------
+Your guess? Yes, there is one a
+
+guesses : 1
+guessed : [a]
+current : --------a-----
+Your guess? Yes, there is one e
+
+guesses : 1
+guessed : [a, e]
+current : -e------a-----
+Your guess? Yes, there is one i
+
+guesses : 1
+guessed : [a, e, i]
+current : -e------a-i---
+Your guess? Yes, there are 2 o's
+
+guesses : 1
+guessed : [a, e, i, o]
+current : -e-o----a-io--
+Your guess? Sorry, there are no u's
