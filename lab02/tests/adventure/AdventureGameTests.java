@@ -55,6 +55,8 @@ public class AdventureGameTests {
                                String assertionMessage) {
         try {
             runTestGame(inputFile);
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
+            throw e;
         } catch (Exception ignored) {
         }
         String expected = new In(new File(PREFIX_PATH + answersFile)).readAll();
