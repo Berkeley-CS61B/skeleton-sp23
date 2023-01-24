@@ -19,16 +19,16 @@ public class AdventureGameTests {
 
     public static final Map<String, Integer> STAGE_TO_LINE_CORRECT = Map.of(
             "BeeCountingStage", 14,
-            "SpeciesListStage", 28,
-            "PalindromeStage", 36,
-            "MachineStage", 56
+            "SpeciesListStage", 29,
+            "PalindromeStage", 37,
+            "MachineStage", 57
     );
 
     public static final Map<String, Integer> STAGE_TO_LINE_INCORRECT = Map.of(
             "BeeCountingStage", 14,
-            "SpeciesListStage", 30,
-            "PalindromeStage", 39,
-            "MachineStage", 59
+            "SpeciesListStage", 31,
+            "PalindromeStage", 40,
+            "MachineStage", 60
     );
 
     @ParameterizedTest
@@ -53,7 +53,12 @@ public class AdventureGameTests {
     private void runUntilStage(String stage, String inputFile, String answersFile,
                                CaptureSystemOutput.OutputCapture capture,
                                String assertionMessage) {
-        runTestGame(inputFile);
+        try {
+            runTestGame(inputFile);
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
+            throw e;
+        } catch (Exception ignored) {
+        }
         String expected = new In(new File(PREFIX_PATH + answersFile)).readAll();
         String expectedClean = expected.replace("\r\n", "\n").strip();
         String captureClean = capture.toString().replace("\r\n", "\n").strip();

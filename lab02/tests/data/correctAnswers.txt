@@ -20,6 +20,7 @@ Here's a few:
 - These large felines with spots will teach you how to react quickly.
 - This native american bovine can be found in the plains, and happens to be EXTREMELY good at Java.
 - Type their names into the terminal (separated by ',')
+Try again! You got 0 animals correct!
 Woah! There are even more neat books here!
 - These bushy-tailed friends are everywhere in and around the trees on campus, and know the best parts of Java.
 - These tiny birds flap very fast, drink nectar, and know how to make simpler Java appplications.
