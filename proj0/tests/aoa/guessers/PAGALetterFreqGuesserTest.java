@@ -57,4 +57,23 @@ public class PAGALetterFreqGuesserTest {
         guess = palfg.getGuess("-ool", List.of('l', 'a', 'o'));
         assertThat(guess).isEqualTo('c');
     }
+
+    @Order(4)
+    @DisplayName("PAGALetterFreqGuesser handles -o--a- pattern on large file")
+    @Test
+    public void testGetGuess_o__a_PatternLargeFile() {
+        PAGALetterFreqGuesser palfg = new PAGALetterFreqGuesser("data/sorted_scrabble.txt");
+
+        // check that the next guess is s, if the previous guesses were o and a
+        char guess = palfg.getGuess("-o--a-", List.of('o', 'a'));
+        assertThat(guess).isEqualTo('s');
+
+        // check that the next guess is s, if the previous guesses were o, a, and s
+        guess = palfg.getGuess("-o--a-", List.of('o', 'a', 's'));
+        assertThat(guess).isEqualTo('l');
+
+        // check that the next guess is n, if the previous guesses were o, a, l, and s
+        guess = palfg.getGuess("-o--a-", List.of('o', 'a', 's', 'l'));
+        assertThat(guess).isEqualTo('n');
+    }
 }

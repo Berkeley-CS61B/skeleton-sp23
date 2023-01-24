@@ -82,6 +82,25 @@ public class PatternAwareLetterFreqGuesserTest {
         char guess = palfg.getGuess("---l", List.of('l', 'a', 'c', 'd'));
         assertThat(guess).isEqualTo('o');
     }
+
+    @Order(5)
+    @DisplayName("PatternAwareLetterFreqGuesser handles -o--a- pattern on large file")
+    @Test
+    public void testGetGuess_o__a_PatternLargeFile() {
+        PatternAwareLetterFreqGuesser palfg = new PatternAwareLetterFreqGuesser("data/sorted_scrabble.txt");
+
+        // check that the next guess is s, if the previous guesses were o and a
+        char guess = palfg.getGuess("-o--a-", List.of('o', 'a'));
+        assertThat(guess).isEqualTo('s');
+
+        // check that the next guess is s, if the previous guesses were o, a, and s
+        guess = palfg.getGuess("-o--a-", List.of('o', 'a', 's'));
+        assertThat(guess).isEqualTo('l');
+
+        // check that the next guess is c, if the previous guesses were o, a, l, and s
+        guess = palfg.getGuess("-o--a-", List.of('o', 'a', 's', 'l'));
+        assertThat(guess).isEqualTo('c');
+    }
 }
 
 
