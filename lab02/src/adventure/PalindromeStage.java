@@ -40,8 +40,13 @@ public class PalindromeStage implements AdventureStage {
             }
 
             IntList numLst = digitsToIntList(input);
-            IntList reversedLst = reverseList(numLst);
+            IntList reversedLst = null;
+            // Uncomment the following line if you are working through the optional section
+            // reversedLst = reverseList(numLst);
 
+            if (reversedLst == null) {
+                break;
+            }
             if (numLst.equals(reversedLst)) {
                 System.out.println("Wow, nice room number!");
                 break;
