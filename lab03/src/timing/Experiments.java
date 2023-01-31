@@ -77,8 +77,8 @@ public class Experiments {
     }
 
     public static void main(String[] args) {
-        // Modify this line to change the experiment you're running
-        TimingData td = timeSLListGetLast();
+        // TODO: Modify the following line to change the experiment you're running
+        TimingData td = exampleFibonacciExperiment();
         // Modify this line to make the chart title make sense
         String title = "Naive Recursive Fibonacci";
 
