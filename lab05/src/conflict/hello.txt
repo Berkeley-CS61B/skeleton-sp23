@@ -1,4 +1,3 @@
-Hello, world!
 <<<<<<< HEAD
 Hello, I am a 61B student!
 =======
