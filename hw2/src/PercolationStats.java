@@ -43,11 +43,11 @@ public class PercolationStats {
         return mean + 1.96 * stddev / Math.sqrt(T);
     }
 
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         int trials = 100, gridSize = 50;
         PercolationFactory pf = new PercolationFactory();
         PercolationStats ps = new PercolationStats(gridSize, trials, pf);
-        System.out.printf("Grid Size: %n x %n | Number of Trials: %n", gridSize, gridSize, trials);
+        System.out.printf("Grid Size: %d x %d | Number of Trials: %d%n", gridSize, gridSize, trials);
         System.out.printf("The mean percolation threshold is %.2f%n", ps.mean());
         System.out.printf("The standard deviation of the percolation threshold is %.2f.%n", ps.stddev());
         System.out.printf("The 95%% confidence interval is [%.3f, %.3f].%n", ps.confidenceLow(), ps.confidenceHigh());
