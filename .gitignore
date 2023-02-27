@@ -54,7 +54,11 @@
 **/.idea/**/gradle.xml
 **/.idea/**/libraries
 
-# Project 2a
+# Project 2
+proj2*/**/data/
+proj2*/**/ngordnetData2022/
+proj2*/**/*.zip
+proj2*/**/*.txt
 synsets.txt
 hyponyms.txt
 all_words.csv
