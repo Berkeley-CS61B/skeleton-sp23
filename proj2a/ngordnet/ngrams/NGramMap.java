@@ -14,6 +14,8 @@ import java.util.Collection;
  */
 public class NGramMap {
 
+    private static int MIN_YEAR = 1400;
+    private static int MAX_YEAR = 2100;
     // TODO: Add any necessary static/instance variables.
 
     /**
