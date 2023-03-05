@@ -4,7 +4,7 @@ $(function() {
 
 	var host;
 
-    host = 'https://wordnet-staff-solution.uc.r.appspot.com/';
+    host = 'https://laksith.dev/ngordnet/info';
     const history_server = host + '/history';
     const historytext_server = host + '/historytext';
     const hyponyms_server = host + '/hyponyms';
