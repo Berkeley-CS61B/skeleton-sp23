@@ -39,9 +39,9 @@ public class MyHashMap<K, V> implements Map61B<K, V> {
      * The load factor (# items / # buckets) should always be <= loadFactor
      *
      * @param initialCapacity initial size of backing array
-     * @param maxLoad maximum load factor
+     * @param loadFactor maximum load factor
      */
-    public MyHashMap(int initialCapacity, double maxLoad) { }
+    public MyHashMap(int initialCapacity, double loadFactor) { }
 
     /**
      * Returns a new node to be placed in a hash table bucket
