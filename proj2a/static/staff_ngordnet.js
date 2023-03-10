@@ -4,7 +4,7 @@ $(function() {
 
 	var host;
 
-    host = 'https://laksith.dev/ngordnet/info';
+    host = 'https://ngordnet.datastructur.es/info';
     const history_server = host + '/history';
     const historytext_server = host + '/historytext';
     const hyponyms_server = host + '/hyponyms';
