@@ -60,4 +60,14 @@ public class MapExercisesTest {
         );
     }
 
+    @Test
+    public void test() {
+        int i = 0;
+        int a = 'a';
+        int b = 'b';
+        System.out.println('a');
+        System.out.println((char)('a' + i));
+        System.out.println((char)('a' + 1));
+    }
+
 }
