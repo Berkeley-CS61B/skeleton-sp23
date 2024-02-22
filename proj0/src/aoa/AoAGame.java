@@ -21,7 +21,7 @@ public class AoAGame {
         int maxGuesses = console.nextInt();
         System.out.println();
 
-        // set up the the chooser and start the game
+        // set up the chooser and start the game
         Chooser chooser = new RandomChooser(wordLength, DICTIONARY_FILE);
         Guesser guesser = new ConsoleGuesser(console);
         //Guesser guesser = new PAGALetterFreqGuesser(DICTIONARY_FILE);
